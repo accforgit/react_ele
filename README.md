@@ -12,6 +12,7 @@
 
 ---
 ##大概效果
+
 ![showpicture](https://github.com/accforgit/react_ele/blob/master/img/1.png)![showpicture](https://github.com/accforgit/react_ele/blob/master/img/2.png)
 ![showpicture](https://github.com/accforgit/react_ele/blob/master/img/3.png)![showpicture](https://github.com/accforgit/react_ele/blob/master/img/4.png)
 ![showpicture](https://github.com/accforgit/react_ele/blob/master/img/5.png)![showpicture](https://github.com/accforgit/react_ele/blob/master/img/6.png)
