@@ -11,7 +11,7 @@
 整个项目总体看起来不咋地，不过其中也有小部分思想、代码等本人觉得尚可，就直接扔到 [Github]()上了，说不定将来还要从这里 `copy` 自己的一些代码呢。
 
 ---
-##大概效果
+## 大概效果
 
 ![showpicture](https://github.com/accforgit/react_ele/blob/master/img/1.png)![showpicture](https://github.com/accforgit/react_ele/blob/master/img/2.png)![showpicture](https://github.com/accforgit/react_ele/blob/master/img/3.png)
 
