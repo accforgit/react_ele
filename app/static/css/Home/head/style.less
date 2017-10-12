@@ -1,0 +1,104 @@
+#home-head {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  height: 10rem;
+  padding: 1rem 1.2rem;
+  color: #fff;
+  background-image: linear-gradient(90deg,#0af,#0085ff);
+  .lt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.6rem;
+    // border: 1px solid red;
+    .locationBox {
+      width:60%;
+      .location {
+        width: 1.2rem;
+        height: 1.28rem;
+        vertical-align: .3rem;
+        fill: #fff;
+      }
+      .location-name {
+        display: inline-block;
+        max-width: 80%;
+        margin: auto .36rem;
+        font-size: 1.5rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .arrow {
+        width:0.6rem;
+        height: 1.3rem;
+        vertical-align: .3rem;
+      }
+    }
+    .thermometerBox {
+      display: flex;
+      height:100%;
+      h2 {
+        margin:0;
+        font-size: 1.2rem;
+      }
+      p {
+        padding:0;
+        margin: 0;
+        font-size: 1rem;
+      }
+      .thermometer-icon {
+        margin-left: .4rem;
+        width: 2rem;
+      }
+    }
+  }
+  .searchBox {
+    display: flex;
+    justify-content: center;
+    margin-top: .7rem;
+    margin-bottom: .7rem;
+    input{
+      width: 100%;
+      height: 2.8rem;
+      text-align: center;
+      font-size: 1.2rem;
+      color: #333;
+      outline: none;
+      border: none;
+      border-radius: 1.5rem;
+    }
+
+    input:-moz-placeholder {
+      color: #333;
+    }
+    input::-moz-placeholder {
+      color: #333;
+    }
+    input:-ms-input-placeholder{
+      color: #333;
+    }
+    input::-webkit-input-placeholder{
+      color: #333;
+    }
+
+  }
+  .commendBox {
+    display: flex;
+    width:100%;
+    overflow-x: auto;
+    -ms-overflow-style:none;
+    a {
+      word-break: keep-all;
+      margin-left: .6rem;
+      margin-right: .6rem;
+      text-decoration: none;
+      color: #fff;
+      font-size: 1rem;
+    }
+    a:first-child {
+      margin-left: 0;
+    }
+  }
+  .commendBox::-webkit-scrollbar{display: none;}
+}

@@ -1,0 +1,40 @@
+@keyframes rightToLeftIn {
+  from {left: 100%;}
+  to {left: 0;}
+}
+@keyframes leftToRightOut {
+  0% {left: 0;}
+  99% {left: 100%;width: 100%; }
+  100%{width: 0; overflow: hidden; visibility: hidden;}
+}
+
+#select-city-box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  width: 100%;
+  z-index: 9999;
+  background-color: #f4f4f4;
+  -ms-overflow-style:none;
+  overflow-style:none;
+}
+#select-city-box::-webkit-scrollbar{
+  display: none;
+}
+.init-transition-mask {
+  display: none;
+}
+
+.rightToLeftInClass {
+  animation: rightToLeftIn .3s;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+.leftToRightOutClass {
+  animation: leftToRightOut .3s;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}

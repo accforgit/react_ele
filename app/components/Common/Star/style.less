@@ -1,0 +1,21 @@
+.star-wrapper {
+  position: relative;
+  display: inline-block;
+  .star-gray {
+    white-space: nowrap;
+    .score-star {
+      fill: #eee;
+    }
+  }
+  .star-real {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 10;
+    .score-star {
+      fill: #ffdb01;
+    }
+  }
+}

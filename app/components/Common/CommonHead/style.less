@@ -1,0 +1,42 @@
+#common-header-box {
+  position: relative;
+  height: 3.7rem;
+  // 解决小屏残留的底部白边
+  border-bottom: 1px solid #0085ff;
+  #common-head {
+    position: fixed;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(90deg,#0af,#0085ff);
+    z-index: 999;
+    width: 100%;
+    .back-left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 3.7rem;
+      height: 3.7rem;
+      .head-arrow-left {
+        width: 1.6rem;
+        height: 1.6rem;
+        fill: #fff;
+      }
+    }
+    .head-title {
+      flex: 1;
+      margin: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    span {
+      width: 4rem;
+    }
+  }
+}

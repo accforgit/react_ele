@@ -1,0 +1,23 @@
+.loading-page-wrapper {
+  position: relative;
+  min-height: 100vh;
+  font-size: 0;
+  .loading-page-bounce {
+    position: absolute;
+    transform: translate(-50%, 0);
+    left: 50%;
+    animation: loadingBounce 400ms linear infinite alternate;
+    .loading-page-box {
+      width: 5rem;
+      height: 5rem;
+      background: url('../../../static/img/common/loadingPageIcon.png') no-repeat;
+      background-size: 100%;
+      background-position: 0 0;
+    }
+  }
+  @keyframes loadingBounce {
+    0% {top:26%;}
+    50% {top:36%;}
+    100% {top: 26%;}
+  }
+}

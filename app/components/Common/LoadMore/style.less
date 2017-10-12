@@ -1,0 +1,23 @@
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #fff;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: #555;
+  .loading-flower {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: .6rem;
+    fill: #555;
+    animation: loadMore 1s linear infinite;
+  }
+}
+
+@keyframes loadMore {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}

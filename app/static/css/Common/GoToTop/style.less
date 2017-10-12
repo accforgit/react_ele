@@ -1,0 +1,32 @@
+#goToTopBox {
+  position: fixed;
+  right: 1.3rem;
+  bottom: 6.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  text-decoration: none;
+  opacity: 0;
+  border: 1px solid #999;
+  border-radius: 50%;
+  background-color: #fff;
+  -webkit-tap-highlight-color: transparent;
+  transition: all .3s;
+  .goToTopIcon {
+    display: block;
+    width: 1.7rem;
+    height: 1.7rem;
+    fill: #999;
+  }
+}
+
+.linear-hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.linear-show {
+  opacity: 1 !important;
+}

@@ -1,0 +1,40 @@
+.zoomImgWrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  z-index: 99;
+  .zoomType {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #fff;
+  }
+  .zoomImg {
+    width: 100%;
+    vertical-align: middle;
+    max-height: 76vh;
+  }
+
+  &.fade-leave {
+    opacity: 1;
+  }
+  &.fade-enter {
+    opacity: 0.01;
+  }
+  &.fade-leave.fade-leave-active{
+    opacity: 0.01;
+    transition: opacity .15s ease-in;
+  }
+  
+  &.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+  }
+}
+

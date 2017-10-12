@@ -1,0 +1,149 @@
+.detail-head {
+  position: relative;
+  padding: .3rem 1rem .4rem 1rem;
+  color: #fff;
+  .mask-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background-color: rgba(119,103,137,.43);
+    }
+  }
+  .arrow-back {
+    position: relative;
+    height: 2rem;
+    padding-top: .3rem;
+    text-align: left;
+    .back-icon {
+      position: absolute;
+      width: 1.6rem;
+      height: 1.6rem;
+      margin-left: .8rem;
+      fill: #fff;
+    } 
+  }
+  .head-main {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+    font-size: 0;
+    img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 2px;
+    }
+    .head-content {
+      width: 84%;
+      margin-left: .7rem;
+      .head-summary {
+        .head-shopname {
+          line-height: 1;
+          margin: 0;
+          font-size: 1.6rem;
+        }
+        .head-delivery {
+          margin-top: .3rem;
+          font-size: 1rem;
+          span:after {
+            content: '/'
+          }
+          span:last-child:after {
+            content: ''
+          }
+        }
+        
+        .head-notice {
+          font-size: 1rem;
+          margin-top: .4rem;
+        }
+      }
+    }
+  }
+  .head-activities {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .7rem;
+    .activities-content {
+      .tag {
+        margin-right: .5rem;
+        background-color: rgb(240, 115, 115);
+      }
+    }
+  }
+
+  .shop-activity-mask{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 3.2rem 2.4rem 0;
+    text-align: center;
+    background-color: #000;
+    transition: opacity .15s;
+    z-index: 99;
+    .shop-name {
+      line-height: 1.8;
+      font-size: 1.6rem;
+      font-weight: normal;
+      text-align: center;
+    }
+    .shop-tag {
+      display: inline-block;
+      margin: 1.6rem 0 1.4rem;
+      padding: .4rem .8rem;
+      border: 1px solid #555;
+      border-radius: 1.2rem;
+    }
+    .shop-notice {
+      text-align: left;
+    }
+    .activity-list {
+      .activity-item {
+        margin-bottom: .2rem;
+        color: #fff;
+        font-size: 1.2rem;
+        .activity-icon {
+          margin-top: .1rem;
+        }
+        .activity-desc {
+          line-height: 1.4;
+          margin-bottom: .4rem;
+          text-align: left;
+          color: #fff;
+        }
+      }
+    }
+    .close-box {
+      position: fixed;
+      left: 0;
+      right: 0;
+      text-align: center;
+      bottom: 2.2rem;
+      .close-icon-box {
+        display: inline-block;
+        padding: 1rem;
+        font-size: 0;
+        border-radius: 50%;
+        // border 与 border-radius 同时存在，border会出现锯齿，所以这里用 box-shadow代替
+        box-shadow: 0 0 3px 0 #888;
+        -webkit-tap-highlight-color:rgba(0,0,0,0)
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+.order-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.4rem 1rem .9rem;
+  margin-top: .9rem;
+  color: #333;
+  background-color: #fff;
+  .order-content {
+    display: flex;
+    .order-left {
+      width: 10%;
+      min-width: 2rem;
+      img {
+        width: 100%;
+      }
+    }
+    .order-right {
+      width: 90%;
+      padding-left: .9rem;
+      .first {
+        display: flex;
+        justify-content: space-between;
+        .shop-title {
+          display: flex;
+          align-items: center;
+          max-width: 56%;
+          .title-text {
+            font-size: 1.4rem;
+            max-width: 100%;
+          }
+          .order-arrow-right {
+            width: .5rem;
+            height: .5rem;
+            margin-left: .5rem;
+          }
+        }
+        .order-state {
+          display: inline-block;
+          max-width: 30%;
+          font-size: 1.2rem;
+        }
+      }
+      .second {
+        display: inline-block;
+        margin-bottom: 1rem;
+        color: #999;
+      }
+      .third {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 1rem 0;
+        font-size: 1.1rem;
+        color: #666;
+        border-width: 1px 0;
+        border-style: solid;
+        border-color: #f5f5f5;
+        .products {
+          max-width: 74%;
+        }
+        .price {
+          display: inline-block;
+          color: #333;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .order-btn-group {
+    text-align: right;
+    margin-top: .9rem;
+    button {
+      padding: .4rem .6rem;
+      border-radius: .2rem;
+      background-color: transparent;
+      margin-left: .6rem;
+    }
+    .another {
+      color: #2395ff;
+      border: 1px solid #2395ff;
+    }
+    .goToComment {
+      color: #ff5339;
+      border: 1px solid #ff5339;
+    }
+  }
+}

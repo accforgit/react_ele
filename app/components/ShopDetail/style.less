@@ -1,0 +1,38 @@
+#detail-box {
+  background-color: #f5f5f5;
+  overflow: hidden;
+  .detail-tab {
+    display: flex;
+    height: 3rem;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    .tab-card {
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      span {
+        font-size: 1.2rem;
+        color: #666;
+      }
+      .tab-active {
+        position: relative;
+        font-weight: 700;
+      }
+      .tab-active::after {
+        content: '';
+        position: absolute;
+        bottom: -.7rem;
+        left: 0;
+        right: 0;
+        height: 3px;
+        border-radius: 1px;
+        background-color: #3190e8;
+      }
+    }
+  }
+  .comment-tab-card, .shop-tab-card {
+    overflow: scroll;
+  }
+}

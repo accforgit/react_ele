@@ -1,0 +1,29 @@
+.classified-wrapper {
+  display: flex;
+  max-height: 33rem;
+  &>ul {
+    overflow: scroll;
+    &::-webkit-scrollbar{
+      display:none;
+    }
+  }
+  .drop-left {
+    width: 34%;
+    background-color: #fafafa;
+  }
+  .drop-right {
+    width: 66%;
+    padding: 0 1rem;
+    .drop-item {
+      padding-left: 2.2rem;
+      background: url('../../../../static/img/searchResult/shaixuan.png') no-repeat;
+      background-size: 1.8rem;
+      background-position: 0 50%;
+    }
+  }
+  .drop-item {
+    padding: .8rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
