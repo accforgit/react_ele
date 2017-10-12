@@ -12,11 +12,11 @@
 
 ---
 ##大概效果
-![showpicture](https://github.com/accforgit/react_ele/blob/master/1.png)![showpicture](https://github.com/accforgit/react_ele/blob/master/2.png)
-![showpicture](https://github.com/accforgit/react_ele/blob/master/3.png)![showpicture](https://github.com/accforgit/react_ele/blob/master/4.png)
-![showpicture](https://github.com/accforgit/react_ele/blob/master/5.png)![showpicture](https://github.com/accforgit/react_ele/blob/master/6.png)
+![showpicture](https://github.com/accforgit/react_ele/blob/master/img/1.png)![showpicture](https://github.com/accforgit/react_ele/blob/master/img/2.png)
+![showpicture](https://github.com/accforgit/react_ele/blob/master/img/3.png)![showpicture](https://github.com/accforgit/react_ele/blob/master/img/4.png)
+![showpicture](https://github.com/accforgit/react_ele/blob/master/img/5.png)![showpicture](https://github.com/accforgit/react_ele/blob/master/img/6.png)
 
-![showpicture](https://github.com/accforgit/react_ele/blob/master/react_ele.gif)
+![showpicture](https://github.com/accforgit/react_ele/blob/master/img/react_ele.gif)
 
 ## 使用到的一些技术
 
